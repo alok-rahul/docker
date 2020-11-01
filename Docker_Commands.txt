@@ -1,0 +1,36 @@
+#1. To check how many  os/instance  is running as of now
+
+> docker ps
+
+Example:-
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+56925e9d763e        ubuntu:14.04        "/bin/bash"         8 hours ago         Up 8 hours                              blissful_keller
+
+
+#2. To check the images that is present or installed which is used in for a operating system or container.
+	
+> docker images
+
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+ubuntu              14.04               df043b4f0cf1        6 weeks ago         197MB
+
+
+#3. Command to download an image from internet. Docker stores images at a central repository of its own which can be located at https://hub.docker.com which is a public repository. 
+
+> docker pull centos:7
+
+[root@localhost ~]# docker pull centos:7
+7: Pulling from library/centos
+75f829a71a1c: Pull complete
+Digest: sha256:19a79828ca2e505eaee0ff38c2f3fd9901f4826737295157cc5212b7a372cd2b
+Status: Downloaded newer image for centos:7
+docker.io/library/centos:7
+
+#4. Check the images that is present as of now
+
+[root@localhost ~]# docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+ubuntu              14.04               df043b4f0cf1        6 weeks ago         197MB
+centos              7                   7e6257c9f8d8        2 months ago        203MB
+
+
