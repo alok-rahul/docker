@@ -33,4 +33,30 @@ REPOSITORY          TAG                 IMAGE ID            CREATED             
 ubuntu              14.04               df043b4f0cf1        6 weeks ago         197MB
 centos              7                   7e6257c9f8d8        2 months ago        203MB
 
+#5. To start an instance from the given image, below command "run" is used with t (terminal option) and i (interactive option) 
+
+[root@localhost ~]# docker run -i -t centos:7
+[root@58925153b3d8 /]# date
+Sun Nov  1 19:33:01 UTC 2020
+[root@58925153b3d8 /]#
+
+#6. You can verify the docker instance is running bby opening a new duplicate terminal and executing the "docker ps" command. Look for the container ID which is same as thw one which you can see in step 5.
+
+[root@localhost ~]# docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED              STATUS              PORTS               NAMES
+58925153b3d8        centos:7            "/bin/bash"         About a minute ago   Up About a minute                       eloquent_kirch
+
+#7. If you wish to shutdown the instance/o.s, you can use the exit command to shutdown  from inside.
+
+[root@58925153b3d8 /]# exit
+exit
+[root@localhost ~]#
+
+#8. Verify that instance is down by running the docker ps command
+
+[root@localhost ~]# docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+[root@localhost ~]#
+
+
 
