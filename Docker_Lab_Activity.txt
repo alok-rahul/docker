@@ -59,4 +59,15 @@ CONTAINER ID        IMAGE               COMMAND             CREATED             
 [root@localhost ~]#
 
 
+#9. To check all the containers that were started we can use { docker ps -a }
+
+[root@localhost ~]# docker ps -a
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS                        PORTS               NAMES
+58925153b3d8        centos:7            "/bin/bash"         37 minutes ago      Exited (0) 32 minutes ago                         eloquent_kirch
+56925e9d763e        ubuntu:14.04        "/bin/bash"         9 hours ago         Exited (127) 37 minutes ago                       blissful_keller
+
+
+
+
+
 
