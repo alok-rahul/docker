@@ -67,7 +67,206 @@ CONTAINER ID        IMAGE               COMMAND             CREATED             
 56925e9d763e        ubuntu:14.04        "/bin/bash"         9 hours ago         Exited (127) 37 minutes ago                       blissful_keller
 
 
+#10. You can start the stopped container by the use of start command with stopped container name or the container id.
+
+[root@localhost ~]# docker ps -a
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS                           PORTS               NAMES
+58925153b3d8        centos:7            "/bin/bash"         About an hour ago   Exited (0) 56 minutes ago                            eloquent_kirch
+56925e9d763e        ubuntu:14.04        "/bin/bash"         10 hours ago        Exited (127) About an hour ago                       blissful_keller
+[root@localhost ~]# docker start blissful_keller
+blissful_keller
+[root@localhost ~]# docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+56925e9d763e        ubuntu:14.04        "/bin/bash"         10 hours ago        Up 4 seconds                            blissful_keller
+[root@localhost ~]# docker start 58925153b3d8
+58925153b3d8
+[root@localhost ~]# docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+58925153b3d8        centos:7            "/bin/bash"         About an hour ago   Up 4 seconds                            eloquent_kirch
+56925e9d763e        ubuntu:14.04        "/bin/bash"         10 hours ago        Up 21 seconds                           blissful_keller
 
 
+#11. #10. You can start the stopped container by the use of start command with stopped container name or the container id.
+
+[root@localhost ~]# docker ps -a
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS                           PORTS               NAMES
+58925153b3d8        centos:7            "/bin/bash"         About an hour ago   Exited (0) 56 minutes ago                            eloquent_kirch
+56925e9d763e        ubuntu:14.04        "/bin/bash"         10 hours ago        Exited (127) About an hour ago                       blissful_keller
+[root@localhost ~]# docker start blissful_keller
+blissful_keller
+[root@localhost ~]# docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+56925e9d763e        ubuntu:14.04        "/bin/bash"         10 hours ago        Up 4 seconds                            blissful_keller
+[root@localhost ~]# docker start 58925153b3d8
+58925153b3d8
+[root@localhost ~]# docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+58925153b3d8        centos:7            "/bin/bash"         About an hour ago   Up 4 seconds                            eloquent_kirch
+56925e9d763e        ubuntu:14.04        "/bin/bash"         10 hours ago        Up 21 seconds                           blissful_keller
+
+
+#11. #10. You can start the stopped container by the use of start command with stopped container name or the container id.
+
+[root@localhost ~]# docker ps -a
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS                           PORTS               NAMES
+58925153b3d8        centos:7            "/bin/bash"         About an hour ago   Exited (0) 56 minutes ago                            eloquent_kirch
+56925e9d763e        ubuntu:14.04        "/bin/bash"         10 hours ago        Exited (127) About an hour ago                       blissful_keller
+[root@localhost ~]# docker start blissful_keller
+blissful_keller
+[root@localhost ~]# docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+56925e9d763e        ubuntu:14.04        "/bin/bash"         10 hours ago        Up 4 seconds                            blissful_keller
+[root@localhost ~]# docker start 58925153b3d8
+58925153b3d8
+[root@localhost ~]# docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+58925153b3d8        centos:7            "/bin/bash"         About an hour ago   Up 4 seconds                            eloquent_kirch
+56925e9d763e        ubuntu:14.04        "/bin/bash"         10 hours ago        Up 21 seconds                           blissful_keller
+
+
+#11. #10. You can start the stopped container by the use of start command with stopped container name or the container id.
+
+[root@localhost ~]# docker ps -a
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS                           PORTS               NAMES
+58925153b3d8        centos:7            "/bin/bash"         About an hour ago   Exited (0) 56 minutes ago                            eloquent_kirch
+56925e9d763e        ubuntu:14.04        "/bin/bash"         10 hours ago        Exited (127) About an hour ago                       blissful_keller
+[root@localhost ~]# docker start blissful_keller
+blissful_keller
+[root@localhost ~]# docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+56925e9d763e        ubuntu:14.04        "/bin/bash"         10 hours ago        Up 4 seconds                            blissful_keller
+[root@localhost ~]# docker start 58925153b3d8
+58925153b3d8
+[root@localhost ~]# docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+58925153b3d8        centos:7            "/bin/bash"         About an hour ago   Up 4 seconds                            eloquent_kirch
+56925e9d763e        ubuntu:14.04        "/bin/bash"         10 hours ago        Up 21 seconds                           blissful_keller
+
+
+#11. #10. You can start the stopped container by the use of start command with stopped container name or the container id.
+
+[root@localhost ~]# docker ps -a
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS                           PORTS               NAMES
+58925153b3d8        centos:7            "/bin/bash"         About an hour ago   Exited (0) 56 minutes ago                            eloquent_kirch
+56925e9d763e        ubuntu:14.04        "/bin/bash"         10 hours ago        Exited (127) About an hour ago                       blissful_keller
+[root@localhost ~]# docker start blissful_keller
+blissful_keller
+[root@localhost ~]# docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+56925e9d763e        ubuntu:14.04        "/bin/bash"         10 hours ago        Up 4 seconds                            blissful_keller
+[root@localhost ~]# docker start 58925153b3d8
+58925153b3d8
+[root@localhost ~]# docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+58925153b3d8        centos:7            "/bin/bash"         About an hour ago   Up 4 seconds                            eloquent_kirch
+56925e9d763e        ubuntu:14.04        "/bin/bash"         10 hours ago        Up 21 seconds                           blissful_keller
+
+
+#11. #10. You can start the stopped container by the use of start command with stopped container name or the container id.
+
+[root@localhost ~]# docker ps -a
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS                           PORTS               NAMES
+58925153b3d8        centos:7            "/bin/bash"         About an hour ago   Exited (0) 56 minutes ago                            eloquent_kirch
+56925e9d763e        ubuntu:14.04        "/bin/bash"         10 hours ago        Exited (127) About an hour ago                       blissful_keller
+[root@localhost ~]# docker start blissful_keller
+blissful_keller
+[root@localhost ~]# docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+56925e9d763e        ubuntu:14.04        "/bin/bash"         10 hours ago        Up 4 seconds                            blissful_keller
+[root@localhost ~]# docker start 58925153b3d8
+58925153b3d8
+[root@localhost ~]# docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+58925153b3d8        centos:7            "/bin/bash"         About an hour ago   Up 4 seconds                            eloquent_kirch
+56925e9d763e        ubuntu:14.04        "/bin/bash"         10 hours ago        Up 21 seconds                           blissful_keller
+
+
+#11. #10. You can start the stopped container by the use of start command with stopped container name or the container id.
+
+[root@localhost ~]# docker ps -a
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS                           PORTS               NAMES
+58925153b3d8        centos:7            "/bin/bash"         About an hour ago   Exited (0) 56 minutes ago                            eloquent_kirch
+56925e9d763e        ubuntu:14.04        "/bin/bash"         10 hours ago        Exited (127) About an hour ago                       blissful_keller
+[root@localhost ~]# docker start blissful_keller
+blissful_keller
+[root@localhost ~]# docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+56925e9d763e        ubuntu:14.04        "/bin/bash"         10 hours ago        Up 4 seconds                            blissful_keller
+[root@localhost ~]# docker start 58925153b3d8
+58925153b3d8
+[root@localhost ~]# docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+58925153b3d8        centos:7            "/bin/bash"         About an hour ago   Up 4 seconds                            eloquent_kirch
+56925e9d763e        ubuntu:14.04        "/bin/bash"         10 hours ago        Up 21 seconds                           blissful_keller
+
+
+#11. #10. You can start the stopped container by the use of start command with stopped container name or the container id.
+
+[root@localhost ~]# docker ps -a
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS                           PORTS               NAMES
+58925153b3d8        centos:7            "/bin/bash"         About an hour ago   Exited (0) 56 minutes ago                            eloquent_kirch
+56925e9d763e        ubuntu:14.04        "/bin/bash"         10 hours ago        Exited (127) About an hour ago                       blissful_keller
+[root@localhost ~]# docker start blissful_keller
+blissful_keller
+[root@localhost ~]# docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+56925e9d763e        ubuntu:14.04        "/bin/bash"         10 hours ago        Up 4 seconds                            blissful_keller
+[root@localhost ~]# docker start 58925153b3d8
+58925153b3d8
+[root@localhost ~]# docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+58925153b3d8        centos:7            "/bin/bash"         About an hour ago   Up 4 seconds                            eloquent_kirch
+56925e9d763e        ubuntu:14.04        "/bin/bash"         10 hours ago        Up 21 seconds                           blissful_keller
+
+
+#11. #10. You can start the stopped container by the use of start command with stopped container name or the container id.
+
+[root@localhost ~]# docker ps -a
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS                           PORTS               NAMES
+58925153b3d8        centos:7            "/bin/bash"         About an hour ago   Exited (0) 56 minutes ago                            eloquent_kirch
+56925e9d763e        ubuntu:14.04        "/bin/bash"         10 hours ago        Exited (127) About an hour ago                       blissful_keller
+[root@localhost ~]# docker start blissful_keller
+blissful_keller
+[root@localhost ~]# docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+56925e9d763e        ubuntu:14.04        "/bin/bash"         10 hours ago        Up 4 seconds                            blissful_keller
+[root@localhost ~]# docker start 58925153b3d8
+58925153b3d8
+[root@localhost ~]# docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+58925153b3d8        centos:7            "/bin/bash"         About an hour ago   Up 4 seconds                            eloquent_kirch
+56925e9d763e        ubuntu:14.04        "/bin/bash"         10 hours ago        Up 21 seconds                           blissful_keller
+
+
+#11. #10. You can start the stopped container by the use of start command with stopped container name or the container id.
+
+[root@localhost ~]# docker ps -a
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS                           PORTS               NAMES
+58925153b3d8        centos:7            "/bin/bash"         About an hour ago   Exited (0) 56 minutes ago                            eloquent_kirch
+56925e9d763e        ubuntu:14.04        "/bin/bash"         10 hours ago        Exited (127) About an hour ago                       blissful_keller
+[root@localhost ~]# docker start blissful_keller
+blissful_keller
+[root@localhost ~]# docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+56925e9d763e        ubuntu:14.04        "/bin/bash"         10 hours ago        Up 4 seconds                            blissful_keller
+[root@localhost ~]# docker start 58925153b3d8
+58925153b3d8
+[root@localhost ~]# docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+58925153b3d8        centos:7            "/bin/bash"         About an hour ago   Up 4 seconds                            eloquent_kirch
+56925e9d763e        ubuntu:14.04        "/bin/bash"         10 hours ago        Up 21 seconds                           blissful_keller
+
+
+#11. We can use the attach command with container name or container id to go inside the running container
+
+[root@localhost ~]# docker ps -a
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+58925153b3d8        centos:7            "/bin/bash"         About an hour ago   Up 5 minutes                            eloquent_kirch
+56925e9d763e        ubuntu:14.04        "/bin/bash"         10 hours ago        Up 5 minutes                            blissful_keller
+[root@localhost ~]# docker attach blissful_keller
+root@56925e9d763e:/#
+root@56925e9d763e:/#
+
+#12. 
 
 
